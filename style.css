@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #3a7bd5;
+  scroll-behavior: smooth;
+}
+
+.profile-container {
+  width: 300px;
+  margin: 200px auto;
+  cursor: pointer;
+}
+
+.profile-container .profile img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.profile-container .profile .info {
+  position: absolute;
+  width: 360px;
+  min-height: 300px;
+  max-height: 340px;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px rgb(255, 255, 255, 0.79);
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-container .profile a {
+  color: black;
+  text-decoration: none;
+}
+
+.profile-container .profile a:hover {
+  text-decoration: underline;
+}
+
+.profile-container .profile .header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-container .profile .header img {
+  width: 60px;
+}
+
+.profile-container .profile .header button {
+  min-width: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #3a7bd5;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+.profile-container .profile .header button:hover {
+  background-color: #5380c0;
+}
+
+.profile-container .profile .user-info {
+  padding: 10px 0;
+}
+
+.profile-container .profile .user-info .name {
+  font-weight: bolder;
+}
+
+.profile-container .profile .user-info .username {
+  color: black;
+}
+
+.profile-container .profile .description {
+  padding: 10px 0 2px 0;
+  flex: 1;
+}
+
+.profile-container .profile .description a {
+  color: black;
+  text-decoration: none;
+}
+
+.profile-container .profile .description a:hover {
+  text-decoration: underline;
+}
+
+.profile-container .profile .followers-container {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.profile-container .profile .followers-container a {
+  color: black;
+}
+
+.profile-container .profile .followers-container .number {
+  font-weight: bolder;
+  color: black;
+}
+
+.profile-container .profile .other {
+  padding: 10px 0;
+}
+
+.profile-container .profile .other a {
+  color: rgb(0, 0, 0, 0.7);
+  display: flex;
+}
+
+.profile-container .profile .other a .photos {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  margin-right: 25px;
+}
+
+.profile-container .profile .other a .photos img {
+  width: 32px;
+  height: 32px;
+  border: solid 4px rgb(0, 0, 0, 0.7);
+  margin-right: -20px;
+}
